@@ -42,5 +42,5 @@ The project is built following **Clean Architecture** principles to ensure separ
 Update the `ConnectionStrings` in `appsettings.json`:
 ```json
 "ConnectionStrings": {
-  "Booklending": "Server=YOUR_SERVER;Database=BookLendingDb;Trusted_Connection=True;TrustServerCertificate=True;"
+  "Booklending": "Server=(localdb)\\MSSQLLocalDB;Database=BookLendingDb;Trusted_Connection=True;TrustServerCertificate=True;"
 }
